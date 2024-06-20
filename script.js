@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(comicData => {
-            console.log('Comic data:', comicData); 
+            console.log('Comic data:', comicData); // debug statement
             displayComic(comicData);
         })
         .catch(error => {
