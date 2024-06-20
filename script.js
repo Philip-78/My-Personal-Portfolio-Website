@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(comicData => {
-            console.log('Comic data:', comicData); // Debugging statement
+            console.log('Comic data:', comicData); 
             displayComic(comicData);
         })
         .catch(error => {
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         img.src = comicData.img;
         img.alt = comicData.alt;
         const title = document.createElement('h3');
-        title.textContent = comicData.title;
+        title.textContent = comicData.safe_title;
         const date = document.createElement('p');
         const comicDate = new Date(comicData.date);
         date.textContent = `Published on: ${comicDate.toLocaleDateString()}`;
