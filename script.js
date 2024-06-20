@@ -1,34 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     const email = 'p.idiare@innopolis.university'; // Replace with your email
-//     const url = new URL('https://fwd.innopolis.university/api/hw2');
-//     url.searchParams.append('email', email);
-
-//     fetch(url)
-//         .then(response => response.json())
-//         .then(data => {
-//             const comicId = data.id;
-//             return fetch(`https://fwd.innopolis.university/api/comic?id=${comicId}`);
-//         })
-//         .then(response => response.json())
-//         .then(comic => {
-//             const comicContainer = document.getElementById('comic-container');
-//             const img = document.createElement('img');
-//             img.src = comic.img;
-//             img.alt = comic.alt;
-//             const title = document.createElement('h3');
-//             title.textContent = comic.title;
-//             const date = document.createElement('p');
-//             const comicDate = new Date(comic.date);
-//             date.textContent = `Published on: ${comicDate.toLocaleDateString()}`;
-
-//             comicContainer.appendChild(title);
-//             comicContainer.appendChild(img);
-//             comicContainer.appendChild(date);
-//         })
-//         .catch(error => console.error('Error fetching comic:', error));
-// });
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const email = 'p.idiare@innopolis.university'; 
     const url = new URL('https://fwd.innopolis.university/api/hw2');
