@@ -1,0 +1,17 @@
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #f1f3f1;
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+    margin: 10px 0;
+}

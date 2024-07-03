@@ -1,0 +1,18 @@
+.comic-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.comic-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.comic-container h2, .comic-container h3 {
+    color: #333;
+}
+
+.comic-container p {
+    color: #666;
+}

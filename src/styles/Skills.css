@@ -1,0 +1,27 @@
+#skills .skills-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-skills, .other-skills {
+    width: 45%;
+}
+
+h3 {
+    text-align: center;
+    color: #090909;
+}
+
+span {
+    color: #FF6347;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
